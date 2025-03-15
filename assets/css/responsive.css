@@ -1,0 +1,97 @@
+@media (max-width: 992px) {
+	.top-bar-nav{
+		display: none;
+	}
+	.header-logo {
+		max-width: 60px;
+	}
+}
+
+@media(max-width:768px){
+
+	.order-sm-1{
+		order: 2!important;
+	}
+	.order-sm-2{
+		order: 1!important;
+	}
+}
+
+@media(max-width:575px){
+
+	.shop-right-section{
+		display: block!important;
+	}
+	.shop-select .nice-select {
+		width: 150px!important;
+	}
+
+}
+
+/***  slider section  ***/
+
+@media(max-width:768px){
+	.slider-content{
+		padding-right: 100px;
+	}
+	.about-contents {
+		margin: 20px 0px 20px 0px;
+	}
+}
+@media(max-width:575px){
+	.slider-content{
+		padding-right:0px;
+		justify-content: center;
+	}
+}
+@media(max-width:400px){
+	.swiper-button-next{
+		display: none;
+	}
+	.swiper-button-prev{
+		display: none;
+	}
+}
+
+
+/***  testimonial-section  ****/
+@media (max-width: 768px) {
+    .testimonial-contents {
+        text-align: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .test-cont-img {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .author-image img {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+
+/***  Appointment-section  ****/
+
+
+@media (max-width: 575px) {
+
+
+	.appointment-content{
+		text-align: center;
+	}
+
+	.appointment-content h1{
+		font-size: 25px;
+	}
+	.appointment-content p{
+		font-size: 14px;
+	}
+
+}
+
+
+
